@@ -40,7 +40,7 @@ var apiRouter = express.Router();
 //test route
 //accessed at GET http://localhost:8080/api
 apiRouter.get('/', function(req, res) {
-	res.json({ message: 'welcome to api' });
+	res.json({ message: 'welcome human to our api' });
 });
 
 //more routes for api here
